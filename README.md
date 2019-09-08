@@ -6,7 +6,7 @@ A demonstration of a simple blog made with laravel php.
 ### Requrements
 * Php CLI >= 7.1.3
 * Mysql = 8.0
-* Composer
+* Php Composer
 
 
 * BCMath PHP Extension
@@ -34,5 +34,7 @@ DB_PASSWORD=YOUR PASSWORD
 ```
 5. run "php artisan migrate" command in project folder
 > Simple-Laravel-Blog/php artisan migrate
-6. run "php artisan serve" command for starting development server.
+6. run “php composer.phar install” command in project folder to install dependencies
+> Simple-Laravel-Blog/php composer.phar install
+7. run "php artisan serve" command for starting development server.
 > Simple-Laravel-Blog/php artisan serve
