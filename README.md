@@ -4,11 +4,11 @@ A demonstration of a simple blog made with laravel php.
 ![Blog Demo](/my_blog.png)
 
 ### Requrements
-* Php >= 7.1.3
+* Php CLI >= 7.1.3
 * Mysql = 8.0
 * Composer
 
-If you are not using XAMPP, LAMP or WAMP then you also need to install
+
 * BCMath PHP Extension
 * Ctype PHP Extension
 * JSON PHP Extension
@@ -34,8 +34,5 @@ DB_PASSWORD=YOUR PASSWORD
 ```
 5. run "php artisan migrate" command in project folder
 > Simple-Laravel-Blog/php artisan migrate
-
-If you are not using XAMPP, LAMP or WAMP then,
-
 6. run "php artisan serve" command for starting development server.
 > Simple-Laravel-Blog/php artisan serve
